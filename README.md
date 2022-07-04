@@ -1,7 +1,7 @@
 # dotfiles
 Dotfiles for GitHub Codespaces
 
-**Don't forget to the terminal in** `devcontainer.json` **file**:
+**Don't forget to the change terminal in** `devcontainer.json` **file**:
 ```json
 ...
 "vscode": {
