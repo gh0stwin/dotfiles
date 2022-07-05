@@ -1,14 +1,17 @@
 # dotfiles
 Dotfiles for GitHub Codespaces
 
-**Don't forget to the change terminal in** `devcontainer.json` **file**:
+**Don't forget to the change the default shell in** `devcontainer.json` **file**:
 ```json
-...
-"vscode": {
+
+{
   ...
-  "settings": {
+  "vscode": {
     ...
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "settings": {
+      ...
+      "terminal.integrated.defaultProfile.linux": "zsh"
+    }
   }
 }
 ```
