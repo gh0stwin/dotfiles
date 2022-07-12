@@ -110,3 +110,5 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export SRANDOM=$(((RANDOM<<15)|RANDOM))
