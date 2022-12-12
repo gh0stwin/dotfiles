@@ -111,4 +111,4 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export SRANDOM=$(((RANDOM<<15)|RANDOM))
+export XLA_PYTHON_CLIENT_PREALLOCATE=false
