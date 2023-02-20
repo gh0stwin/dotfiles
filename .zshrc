@@ -111,4 +111,13 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# JAX
 export XLA_PYTHON_CLIENT_PREALLOCATE=false
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# poetry
+export PATH="$HOME/.local/bin:$PATH"
