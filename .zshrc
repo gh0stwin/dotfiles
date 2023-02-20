@@ -107,10 +107,5 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 # JAX
 export XLA_PYTHON_CLIENT_PREALLOCATE=false
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 # poetry
 export PATH="$HOME/.local/bin:$PATH"
